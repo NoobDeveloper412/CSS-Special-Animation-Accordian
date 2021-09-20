@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+
+:root {
+  --primary-color: #000;
+  --seconday-color: tomato;
+  --label-bg-color: white;
+  --content-bg-color: white;
+  --content-color: #42464a;
+}
+
+body{
+    font-family:"Poppins", serif; 
+}
+h1{
+    color: var(--primary-color);
+    text-align: center;
+}
+h1 span{
+    color: var(--seconday-color);
+}
